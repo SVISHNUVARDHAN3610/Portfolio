@@ -157,6 +157,7 @@ problems effectively
                             <li>Machine Learning</li>
                             <li>Deep Learning</li>
                             <li>Reinforcement Learning</li>
+                            <li>LLM's, Fine-Tuning<li>
                             <li>AWS</li>
                             <li>PyTorch, TensorFlow</li>
                             <li>Python,SQL,Java</li>
@@ -326,16 +327,16 @@ problems effectively
                             <li class="folio-list__item column" data-animate-el>
                                 <a class="folio-list__item-link" href="#modal-03">
                                     <div class="folio-list__item-pic">
-                                        <img src="images\portfolio\atari_games.jpg" 
-                                             srcset="images\portfolio\atari_games.jpg 1x, images\portfolio\atari_games.jpg 2x" alt="">
+                                        <img src="images\portfolio\Fine-tunning.png" 
+                                             srcset="images\portfolioFine-tunning.png 1x, images\portfolio\Fine-tunning.png 2x" alt="">
                                     </div>
                                     
                                     <div class="folio-list__item-text">
                                         <div class="folio-list__item-cat">
-                                            Deep Learning
+                                            LLM, Fine-Tunning
                                         </div>
                                         <div class="folio-list__item-title">
-                                            Atari Games Bot
+                                            Fine-Tuning T5 For NER Task (Pure Pytorch)
                                         </div>
                                     </div>
                                 </a>
@@ -417,21 +418,22 @@ problems effectively
 
                     <div id="modal-03" hidden>
                         <div class="modal-popup">
-                            <img src="images\portfolio\atari_games.jpg" alt="">
+                            <img src="images\portfolio\Fine-tunning.png" alt="">
                 
                             <div class="modal-popup__desc">
-                                <h5>Atari Games</h5>
-                                <p>Due to the simplicity and popularity of Atari games, there has been considerable 
-                                    enthusiasm among people to play them. As a response, I embarked on the project of 
-                                    creating a bot capable of autonomously playing Atari games using reinforcement 
-                                    learning. I trained this model using the PPO algorithm, and it delivered promising 
-                                    results after a full day of training</p>
+                                <h5>Fine-Tuning T5 model pure pytorch</h5>
+                                <p>Integrated Low-Rank Adaptation (LoRA) into the T5-small model for efficient parameter-efficient fine-tuning on the 
+                                    CoNLL-2003 Named Entity Recognition dataset using pure PyTorch, without external fine-tuning libraries.
+                                    Designed and implemented custom LoRA modules for T5 attention layers, reducing trainable parameters by over 90% 
+                                    while maintaining comparable F1-score to full fine-tuning approache. Constructed a modular training pipeline with logging, masking, gradient clipping, and checkpointing, enabling fast experimentation and reusable components for future low-resource NLP tasks.
+
+                                    </p>
                                 <ul class="modal-popup__cat">
                                     <li>Deep Learning</li>
                                 </ul>
                             </div>
                 
-                            <a href="https://github.com/SVISHNUVARDHAN3610/atari-ppo-pytorch" class="modal-popup__details">Project link</a>
+                            <a href="https://github.com/SVISHNUVARDHAN3610/Fine-Tuning-T5-small-for-Named-Entity-Recognition-using-LoRA-Pure-PyTorch-" class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
